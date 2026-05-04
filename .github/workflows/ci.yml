@@ -1,0 +1,30 @@
+# Pipeline de Integración Continua (CI)
+# Proyecto: proyecto1 - Práctica CI/CD
+# Se ejecuta automáticamente con cada push a la rama main
+
+name: CI - Build .NET
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v4
+
+      - name: Instalar .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.x'
+
+      - name: Restaurar dependencias
+        run: dotnet restore
+
+      - name: Compilar proyecto
+        run: dotnet build --configuration Release --no-restore

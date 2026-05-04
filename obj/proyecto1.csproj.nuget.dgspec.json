@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\siulf\\Desktop\\grupo I - Diplomado\\diplomado-practica1\\proyecto1.csproj": {}
+    "F:\\JHOEL\\SEMESTRE 2-2025\\DIPLOMADO\\TAREAS\\proyecto1\\proyecto1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\siulf\\Desktop\\grupo I - Diplomado\\diplomado-practica1\\proyecto1.csproj": {
+    "F:\\JHOEL\\SEMESTRE 2-2025\\DIPLOMADO\\TAREAS\\proyecto1\\proyecto1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\siulf\\Desktop\\grupo I - Diplomado\\diplomado-practica1\\proyecto1.csproj",
+        "projectUniqueName": "F:\\JHOEL\\SEMESTRE 2-2025\\DIPLOMADO\\TAREAS\\proyecto1\\proyecto1.csproj",
         "projectName": "proyecto1",
-        "projectPath": "C:\\Users\\siulf\\Desktop\\grupo I - Diplomado\\diplomado-practica1\\proyecto1.csproj",
-        "packagesPath": "C:\\Users\\siulf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\siulf\\Desktop\\grupo I - Diplomado\\diplomado-practica1\\obj\\",
+        "projectPath": "F:\\JHOEL\\SEMESTRE 2-2025\\DIPLOMADO\\TAREAS\\proyecto1\\proyecto1.csproj",
+        "packagesPath": "C:\\Users\\joelq\\.nuget\\packages\\",
+        "outputPath": "F:\\JHOEL\\SEMESTRE 2-2025\\DIPLOMADO\\TAREAS\\proyecto1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\siulf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\joelq\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
